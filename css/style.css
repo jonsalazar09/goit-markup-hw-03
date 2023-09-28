@@ -1,3 +1,4 @@
+/* GENERAL OR GLOBAL SELECTORS */
 body {
     color: #434455;
     font-family: Roboto, sans-serif;
@@ -5,7 +6,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    width: 1440px;
+    margin: auto;
   }
   
   ul {
@@ -13,7 +16,17 @@ body {
     padding: 0px;
     margin: 0px;
   }
-  
+
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.02em;
+    margin: 0px;
+    text-transform: capitalize;
+  }  
   h3 {
     font-size: 20px;
     font-style: normal;
@@ -21,7 +34,23 @@ body {
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
   }
+  p {
+    margin: 0px;
+
+  }
   
+  button {
+    cursor: pointer;
+  }
+
+/* WEBSITE HEADER SECTION */
+header {
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+    display: inline-flex;
+}
+
   header a {
     text-decoration: none;
     color: #434455;
