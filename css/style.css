@@ -92,11 +92,13 @@ header {
   
   .splash-header {
     text-align: center;
-    font-size: 50px;
+    font-size: 56px;
     text-transform: uppercase;
     color: white;
     background: var(--NAVY-BLUE, #2e2f42);
-    line-height: 75px;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: normal;
   }
   
   button {
