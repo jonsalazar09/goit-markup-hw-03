@@ -197,11 +197,15 @@ body {
   
   /* INDEX - BODY SECTION */
   /* WHAT ARE WE DOING */
-  .doing {
+  .what-are-we-doing {
     padding-top: 120px;
     margin-left: 156px;
     margin-bottom: 120px;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
   
   .corevalues ul {
@@ -220,21 +224,21 @@ body {
     width: 264px;
     margin: 0px 24px 0px 0px;
   }
-  .doing h2 {
+  .wawd-images h2 {
     margin: 120px 0px 72px 0px;
     padding-left: 403px;
     width: 323px;
     text-wrap: nowrap;
   }
   
-  .doing li {
+  .wawd-images li {
     display: inline-flex;
     justify-content: center;
     margin-right: 24px;
     border: 1px solid #e7e9fc;
   }
   
-  .what-images img {
+  .wawd-images img {
     width: 360px;
     height: 300px;
   }
