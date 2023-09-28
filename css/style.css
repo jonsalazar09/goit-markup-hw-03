@@ -208,17 +208,17 @@ body {
     gap: 8px;
   }
   
-  .corevalues ul {
+  .wawd-corevalues ul {
     display: inline-flex;
     justify-content: center;
   }
   
-  .corevalues h3 {
+  .wawd-corevalues h3 {
     margin: 0px 24px 8px 0px;
     padding-top: 120px;
   }
   
-  .corevalues p {
+  .wawd-corevalues p {
     justify-content: center;
     align-items: flex-start;
     width: 264px;
